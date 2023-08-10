@@ -44,7 +44,7 @@ export default class BookList extends React.Component {
     }else{
       const row=this.state.params.row
       return(
-        <div style={{width:"50%",display:"flex", flexDirection:"column"}}>
+        <div style={{width:"50%",display:"flex", flexDirection:"column", alignItems:"flex-start",marginLeft:"2rem"}}>
         <h1>{row.name}</h1>
         <div style={{display:"flex",flexDirection:"column"}}>
         <div style={{display:"flex",flexDirection:"row"}}>
